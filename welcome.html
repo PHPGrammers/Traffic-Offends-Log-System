@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+
+  <div class="container-fluid">
+    <a class="navbar-brand">Traffic Mgt</a>
+<p id="fullname" class="pull-right text-white"></p>
+    <form class="d-flex">
+    	
+      <input class="form-control me-2" type="search" placeholder="Search Driver License" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- sidebar nav -->
+<div class="sidebar-navigation">
+	<div class="nav-company">
+		<div class="logo"></div>
+		<div class="nav-company-title">Ghana Traffic</div>
+		<nav>
+			<ul>
+				<li><a href="">
+					<span class='bx bxs-user-check' ></span>Drivers
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bxs-car-crash' ></span>Offenses
+				</a>
+			</li>
+			<li><a href="">
+					<span class="bx bxs-user-detail"></span>Users
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bxs-lock' ></span>Permissions
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bx-history' ></span>Activity
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bxs-plug'></span>Settings
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bxs-user-pin'></span>Profile
+				</a>
+			</li>
+			<li><a href="">
+					<span class='bx bxs-log-out' ></span>Logout
+				</a>
+			</li>
+			</ul>
+		</nav>
+	</div>
+	
+</div>
+<!-- end sidebar nav -->
+
+<h2 class="text-center">Welcome to the traffic management portal</h2>
+<div class="p-2" style="margin-left:20%">
+<div class="row g-0">
+            <div class="col-lg-6 pe-lg-2 mb-3">
+              <div class="card h-lg-100 overflow-hidden">
+                <div class="card-header bg-light">
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <h6 class="mb-0">Recent Traffic Offenses</h6>
+                    </div>
+                    <div class="col-auto text-center pe-card"><select class="form-select ">
+                    			<option>All</option>
+                        <option>Over Speeding</option>
+                        <option>Traffic Light Offense</option>
+                        <option>Driver Lincense Issues</option>
+                        <option>Authority Assault</option>
+                      </select></div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                	<div class="row g-0 align-items-center py-2 position-relative border-bottom border-200">
+                    <div class="col col-auto py-1">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar avatar-xl me-3">
+                          <div class="avatar-name rounded-circle bg-soft-info text-dark text-center p-2 bg-dark" style="width:40px;"><span class="fs-0 text-info ml-2">KD</span></div>
+                        </div>
+                        <div class="flex-1">
+                          <h6 class=" align-items-center"><a class="text-800 stretched-link" href="#!">Kofi Dei Nyamekye </a> &nbsp <small class=" rounded bg-danger text-white" style=" padding: 1.7px; width:  auto; font-size:xx-small; text-decoration: none !important;"> <em style="font-size: x-small; text-decoration: none !important;">Over Speeding</em></small> <span class="badge rounded-pill ms-2 bg-200 text-primary">EA-3456-0985</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-lg-4 py-1">
+                      <div class=" col pull-right text-primary">
+                          <span class="badge rounded-pill ms-2 bg-200 text-primary">20 mins ago</span>
+                        </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+	
+</div>
+<script src="myscript.js"></script>
+
+<script type="text/javascript">
+	userJS();
+</script>
+
+</body>
+</html>

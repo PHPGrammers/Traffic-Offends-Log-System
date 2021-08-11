@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+web page
+</title>
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- <link rel="stylesheet" type="text/css" href="tailwindcss/tailwind.css"> -->
+
+
+</head>
+
+<body>
+
+<div class=" container justify-content-center">
+
+
+<div class="row p-5">
+
+
+<!-- col 2 -->
+<div class="col-md-4 shadow rounded bg-white col-md-offset-4">
+<form method="POST" action="index.php" id="">
+<h3>Register User</h3>
+<label>Firstname</label>
+<input required="" type="text" name="firstname" class="form-control">
+<label>Lastname</label>
+<input required="" type="text" name="lastname" class="form-control">
+<label>Middle names</label>
+<input type="text" name="middle" class="form-control">
+<label>Login ID</label>
+<input required="" type="text" name="staffid" class="form-control">
+<label>Department</label>
+<select class="form-control" required="" name="department">
+	<option value="" selected="" disabled="">***Select one department***</option>
+	<option>Police</option>
+	<option>MTTU</option>
+	<option>CID</option>
+</select>
+<label>Password</label>
+<input required="" type="password" name="password" class="form-control" id="password">
+<label>Confirm Password</label>
+<input onchange="triggerCheckPassword()" required="" type="password" name="confirmpassword" class="form-control" id="confirmpassword">
+
+<strong id="errorMessage" style="color: red;"></strong>
+<button type="submit" class="btn btn-warning form-control mt-2">Register user</button>
+<a href="index.html" class="btn btn-primary form-control mt-2">login</a>
+</form>
+</div>
+
+</div>
+
+</div>
+<script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>

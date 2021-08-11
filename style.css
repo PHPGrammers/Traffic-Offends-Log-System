@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@200;300&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+*{
+	font-family: roboto condensed;
+}
+.sidebar-navigation {
+	background: #212529;
+	color: white;
+	padding-top: 15px;
+	right: 25px;
+	width: 200px;
+	left: 0;
+	top: 0;	
+	bottom: 0;
+	height: 100%;
+	position: fixed;
+}
+.sidebar-navigation nav {
+	margin-top: 15px;
+}
+.sidebar-navigation nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+.sidebar-navigation nav li{
+	list-style: none;
+	padding: 10px;
+	font-size: large;
+	margin-right: 10px;
+
+}
+.sidebar-navigation nav li:hover{
+	background: #4d5053;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.sidebar-navigation nav li span{
+	margin-right: 10px
+}
+.sidebar-navigation nav li:hover{
+	background: #4d5053;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.sidebar-navigation .nav-company div{
+	text-align: center;
+	font-weight: 600;
+	color: yellow;
+	font-size: 3vh;
+}
